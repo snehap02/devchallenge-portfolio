@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden w-full">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="/style.css">
     <title>Portfolio</title>
 </head>
-<body class="min-h-screen overflow-x-hidden">
-    <main class="md:grid md:grid-cols-2 bg-bodybackground">
-        <section>
+<body class="min-h-screen overflow-x-hidden relative w-full">
+    <main class="md:grid md:grid-cols-2 bg-bodybackground w-full">
+        <section class="overflow-x-hidden">
             <div class="bg-white shadow-xl p-6">
                 <img src="/images/img2.jpeg" alt="" class="rounded-2xl">
                 <h2 class="text-colorone font-semibold font-firstFont not-italic text-2xl mt-6">Sneha Purkayastha</h2>
@@ -34,7 +34,9 @@
 
             <div></div>
 
-            <div></div>
+            <div>
+
+            </div>
         </section>
 
         <section>
@@ -95,11 +97,64 @@
                 </div>
             </div>
 
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+            <div class="lg:hidden">
+                <div class="bg-white w-full mt-10 h-16 shadow-xl font-firstFont text-colorone not-italic font-medium text-lg pt-3 px-6">Project (4)</div>
+
+                <div class="flex overflow-x-auto mt-4 gap-4">
+                    <div class="min-w-full bg-white shadow-xl rounded-xl p-4">
+                        <img src="/images/team.png" alt="" class="rounded-2xl">
+                        <p class="text-colorone font-firstFont font-medium text-base mt-4">#HTML #CSS #responsive</p>
+                        <h2 class="text-colorone font-firstFont font-medium text-2xl mt-4">My Team Page</h2>
+                        <p class="text-colortwo text-base font-firstFont font-medium w-11/12 mt-4">In this project, I work with HTML and Tailwind CSS to create a responsive page. The design is from devchallenge.io</p>
+                        <div class="mt-12 mb-8">
+                            <a href="https://the-creative-crew-dev.netlify.app/" target="_blank" class="text-lg font-firstFont font-medium not-italic bg-colorfour text-white py-3 px-10 rounded-xl">Demo</a>
+                            <a href="https://github.com/snehap02/devchallenege-my-team-page" target="_blank" class="text-lg font-firstFont font-medium not-italic ring-2 ring-blue-500 text-colorfour py-3 px-10 rounded-xl ml-2">Code</a>
+                        </div>
+                    </div>
+                    <div class="min-w-full bg-white shadow-xl rounded-xl p-4">
+                        <img src="/images/edie homepage.png" alt="" class="rounded-2xl">
+                        <p class="text-colorone font-firstFont font-medium text-base mt-4">#HTML #CSS #responsive</p>
+                        <h2 class="text-colorone font-firstFont font-medium text-2xl mt-4">Edie homepage</h2>
+                        <p class="text-colortwo text-base font-firstFont font-medium w-11/12 mt-4">In this project, I work with HTML and Tailwind CSS to create a responsive page. The design is from devchallenge.io</p>
+                        <div class="mt-12 mb-8">
+                            <a href="https://devchallengeproject-edie-homepage.netlify.app/" target="_blank" class="text-lg font-firstFont font-medium not-italic bg-colorfour text-white py-3 px-10 rounded-xl">Demo</a>
+                            <a href="https://github.com/snehap02/devchallenge-edie-homepage" target="_blank" class="text-lg font-firstFont font-medium not-italic ring-2 ring-blue-500 text-colorfour py-3 px-10 rounded-xl ml-2">Code</a>
+                        </div>
+                    </div>
+                    <div class="min-w-full bg-white shadow-xl rounded-xl p-4">
+                        <img src="/images/gallery.png" alt="" class="rounded-2xl">
+                        <p class="text-colorone font-firstFont font-medium text-base mt-4">#HTML #CSS #responsive</p>
+                        <h2 class="text-colorone font-firstFont font-medium text-2xl mt-4">My Gallery</h2>
+                        <p class="text-colortwo text-base font-firstFont font-medium w-11/12 mt-4">In this project, I work with HTML and Tailwind CSS to create a responsive page. The design is from devchallenge.io</p>
+                        <div class="mt-12 mb-8">
+                            <a href="https://my-gallery-devchallenge.netlify.app/" target="_blank" class="text-lg font-firstFont font-medium not-italic bg-colorfour text-white py-3 px-10 rounded-xl">Demo</a>
+                            <a href="https://github.com/snehap02/devchallenge-my-gallery" target="_blank" class="text-lg font-firstFont font-medium not-italic ring-2 ring-blue-500 text-colorfour py-3 px-10 rounded-xl ml-2">Code</a>
+                        </div>
+                    </div>
+                    <div class="min-w-full bg-white shadow-xl rounded-xl p-4">
+                        <img src="/images/interior.png" alt="" class="rounded-2xl">
+                        <p class="text-colorone font-firstFont font-medium text-base mt-4">#HTML #CSS #JavaScript #responsive</p>
+                        <h2 class="text-colorone font-firstFont font-medium text-2xl mt-4">Interior Consultant</h2>
+                        <p class="text-colortwo text-base font-firstFont font-medium w-11/12 mt-4">In this project, I work with HTML, Tailwind CSS and JavaScript to create a responsive page. The design is from devchallenge.io</p>
+                        <div class="mt-12 mb-8">
+                            <a href="https://interior-design-devchallenge.netlify.app/" target="_blank" class="text-lg font-firstFont font-medium not-italic bg-colorfour text-white py-3 px-10 rounded-xl">Demo</a>
+                            <a href="https://github.com/snehap02/devchallenge-interior-consultant" target="_blank" class="text-lg font-firstFont font-medium not-italic ring-2 ring-blue-500 text-colorfour py-3 px-10 rounded-xl ml-2">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white w-full lg:hidden mt-10 shadow-xl flex flex-col">
+                <h2>Hobbies</h2>
+                <div>
+                    <img src="/images/read.jpg" alt="">
+                </div>
+                <div>
+                    <img src="/images/illustration.jpg" alt="">
+                </div>
+                <div>
+                    <img src="/images/web.png" alt="">
+                </div>
             </div>
 
             <div>
