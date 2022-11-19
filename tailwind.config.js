@@ -21,8 +21,11 @@ module.exports = {
       gap:{
         first: '85px',
         second: '78px'
-      }
+      },
+      
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
