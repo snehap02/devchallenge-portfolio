@@ -16,7 +16,8 @@ module.exports = {
       },
       width:{
         pWidth: '370px',
-        skillW: '500px'
+        skillW: '500px',
+        projectW: '380px'
       },
       gap:{
         first: '85px',
