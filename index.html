@@ -11,9 +11,9 @@
     <title>Portfolio</title>
 </head>
 <body class="min-h-screen overflow-x-hidden relative w-full">
-    <main class="md:grid md:grid-cols-2 bg-bodybackground w-full">
-        <section class="overflow-x-hidden">
-            <div class="bg-white shadow-xl p-6">
+    <main class="md:grid md:grid-cols-2 bg-black w-full">
+        <section class="overflow-x-hidden md:p-6">
+            <div class="bg-white shadow-xl p-6 md:rounded-xl">
                 <img src="/images/img2.jpeg" alt="" class="rounded-2xl">
                 <h2 class="text-colorone font-semibold font-firstFont not-italic text-2xl mt-6">Sneha Purkayastha</h2>
                 <h3 class="text-colortwo font-firstFont font-medium text-lg mt-3">Front-end developer</h3>
@@ -31,8 +31,6 @@
                 </div>
                 <p class="text-lg font-firstFont font-medium text-colortwo mt-8 w-pWidth">Self-motivated front-end developer, who is willing to learn and create awesome websites.</p>
             </div>
-
-            <div></div>
 
             <div class="md:bg-white md:w-full md:mt-10 md:shadow-xl md:flex md:flex-col hidden md:p-5 md:rounded-xl">
                 <h2 class="md:text-2xl md:font-firstFont md:text-colorone md:font-medium md:not-italic">Hobbies</h2>
@@ -52,11 +50,30 @@
                     <p class="md:text-base md:font-firstFont md:text-colortwo font-medium md:not-italic md:mt-2">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
+
+            <div class="md:bg-white md:w-full md:mt-10 md:shadow-xl md:flex md:flex-col hidden md:p-5 md:rounded-xl">
+                <h2 class="md:text-2xl md:font-firstFont md:text-colorone md:font-medium md:not-italic">Experiences</h2>
+                <div class="md:mt-8">
+                    <img src="/images/read.jpg" alt="" class="md:rounded-xl">
+                    <h1 class="md:font-firstFont md:text-lg md:text-gray-700 md:font-semibold md:not-italic md:mt-6">Reading Books</h1>
+                    <p class="md:text-base md:font-firstFont md:text-colortwo md:font-medium md:not-italic md:mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="md:mt-8">
+                    <img src="/images/illustration.jpg" alt="" class="md:rounded-xl md:w-full">
+                    <h1 class="md:font-firstFont md:text-lg md:text-gray-700 md:font-semibold md:not-italic md:mt-6">Digital Art</h1>
+                    <p class="md:text-base md:font-firstFont md:text-colortwo md:font-medium md:not-italic md:mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+                <div class="md:mt-8">
+                    <img src="/images/web.png" alt="" class="md:rounded-xl">
+                    <h1 class="md:font-firstFont md:text-lg text-gray-700 font-semibold not-italic md:mt-6">Web Design</h1>
+                    <p class="md:text-base md:font-firstFont md:text-colortwo font-medium md:not-italic md:mt-2">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
         </section>
 
-        <section>
+        <section class="md:p-6">
             <div class="lg:grid lg:grid-cols-2">
-                <div class="bg-white p-5 mt-10 shadow-xl md:w-skillW">
+                <div class="bg-white p-5 mt-10 md:-mt-0 shadow-xl rounded-xl">
                     <h2 class="uppercase font-bold text-lg text-colorone">Front End</h2>
                     <div class="flex mt-2">
                         <h2 class="font-firstFont text-base font-medium text-colorone w-32">Html</h2>
@@ -94,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="bg-white p-5 mt-10 shadow-xl md:w-skillW">
+                <div class="bg-white p-5 mt-10 shadow-xl rounded-xl">
                     <h2 class="uppercase font-bold text-lg text-colorone">Design</h2>
                     <div class="flex mt-3">
                         <h2 class="font-firstFont text-base font-medium text-colorone w-32">Figma</h2>
@@ -113,7 +130,7 @@
             </div>
 
             <div class="lg:hidden">
-                <div class="bg-white w-full mt-10 h-16 shadow-xl font-firstFont text-colorone not-italic font-medium text-lg pt-3 px-6">Project (4)</div>
+                <div class="bg-white w-full mt-10 h-16 shadow-xl font-firstFont text-colorone not-italic font-medium text-lg pt-3 px-6 rounded-xl">Project (4)</div>
                 <div class="flex overflow-x-auto mt-4 gap-4">
                     <div class="min-w-full bg-white shadow-xl rounded-xl p-4">
                         <img src="/images/team.png" alt="" class="rounded-2xl">
@@ -178,8 +195,8 @@
             </div>
 
             <div>
-                <div class="bg-white w-full mt-14 h-16 shadow-xl font-firstFont text-colorone not-italic font-medium text-lg pt-3 px-6">Blogs (3)</div>
-                <div class="bg-white w-full mt-4 p-4 shadow-xl">
+                <div class="bg-white w-full mt-14 h-16 shadow-xl font-firstFont text-colorone not-italic font-medium text-lg pt-3 px-6 rounded-xl">Blogs (3)</div>
+                <div class="bg-white w-full mt-4 p-4 shadow-xl rounded-xl">
                     <div class="sm:grid sm:grid-cols-2">
                         <h2 class="font-firstFont not-italic font-medium text-gray-700 text-xl">10 Amazing VS Code extensions for Web Developers 🔖</h2>
                         <img src="/images/vscode.png" alt="" class="sm:w-96 sm:row-span-2 mt-6">
@@ -189,7 +206,7 @@
                         <a href="https://snehapurkayastha.hashnode.dev/10-amazing-vs-code-extensions-for-web-developers" target="_blank" class="text-lg text-colorfour py-2 px-6 ring-2 ring-blue-600 rounded-xl cursor-pointer font-firstFont font-medium">Read More</a>
                     </div>
                 </div>
-                <div class="bg-white w-full mt-4 p-4 shadow-xl">
+                <div class="bg-white w-full mt-4 p-4 shadow-xl rounded-xl">
                     <div class="sm:grid sm:grid-cols-2">
                         <h2 class="font-firstFont not-italic font-medium text-gray-700 text-xl">Everything You Need To Know - From installing tailwindcss to deploying a tailwind website to production.</h2>
                         <img src="/images/tailwind.png" alt="" class="sm:w-96 sm:row-span-2 mt-6">
@@ -199,7 +216,7 @@
                         <a href="https://snehapurkayastha.hashnode.dev/everything-you-need-to-know-from-installing-tailwindcss-to-deploying-a-tailwind-website-to-production" target="_blank" class="text-lg text-colorfour py-2 px-6 ring-2 ring-blue-600 rounded-xl cursor-pointer font-firstFont font-medium">Read More</a>
                     </div>
                 </div>
-                <div class="bg-white w-full mt-4 p-4 shadow-xl">
+                <div class="bg-white w-full mt-4 p-4 shadow-xl rounded-xl">
                     <div class="sm:grid sm:grid-cols-2">
                         <h2 class="font-firstFont not-italic font-medium text-gray-700 text-xl">Javascript Arrays</h2>
                         <img src="/images/array.png" alt="" class="sm:w-96 sm:row-span-2 mt-6">
@@ -211,8 +228,7 @@
                 </div>
             </div>
         </section>
-
-        <div class="text-center mt-10 mb-6 font-firstFont text-sm font-medium text-colortwo">created by <span class="font-bold">Sneha Purkayastha</span> - devChallenges.io</div>
     </main>
+    <div class="text-center mt-10 mb-6 font-firstFont text-sm font-medium text-colortwo">created by <span class="font-bold">Sneha Purkayastha</span> - devChallenges.io</div>
 </body>
 </html>
